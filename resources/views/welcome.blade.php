@@ -42,9 +42,9 @@
         
         <!-- Content -->
         <div class="relative z-20 text-center px-4 max-w-5xl mx-auto mt-16">
-            <h2 class="text-brand font-bold tracking-widest uppercase mb-4 text-sm md:text-base">Elite Football Training</h2>
-            <h1 class="text-7xl md:text-[9rem] font-heading leading-none uppercase tracking-tight text-dark drop-shadow-sm">TRAIN LIKE<br>A PRO</h1>
-            <p class="mt-8 text-lg md:text-2xl font-medium text-gray-600 max-w-2xl mx-auto">Master your mechanics, elevate your football IQ, and reach the next level with Jack Brown and elite BPRO coaches.</p>
+            <h2 class="text-brand font-bold tracking-widest uppercase mb-4 text-xs sm:text-sm md:text-base">Elite Football Training</h2>
+            <h1 class="text-6xl sm:text-7xl md:text-[9rem] font-heading leading-none uppercase tracking-tight text-dark drop-shadow-sm">TRAIN LIKE<br>A PRO</h1>
+            <p class="mt-6 md:mt-8 text-base sm:text-lg md:text-2xl font-medium text-gray-600 max-w-2xl mx-auto">Master your mechanics, elevate your football IQ, and reach the next level with Jack Brown and elite BPRO coaches.</p>
             
             <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <!-- App Store Button -->
@@ -71,9 +71,9 @@
     <!-- App Showcase Section (MOVED UP FOR BETTER FLOW) -->
     <section id="app" class="pt-32 pb-24 px-6 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
-            <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-sm">Experience BPRO</h3>
-            <h2 class="text-5xl md:text-7xl font-heading uppercase leading-none text-dark mb-6">Built For Athletes.</h2>
-            <p class="text-lg text-gray-500 font-medium mb-16 max-w-2xl">A premium, smooth, and distraction-free interface designed to get you in the zone faster. Track your tactical IQ, analyze mechanics, and master your position.</p>
+            <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-xs md:text-sm">Experience BPRO</h3>
+            <h2 class="text-4xl sm:text-5xl md:text-7xl font-heading uppercase leading-none text-dark mb-4 md:mb-6">Built For Athletes.</h2>
+            <p class="text-base md:text-lg text-gray-500 font-medium mb-10 md:mb-16 max-w-2xl">A premium, smooth, and distraction-free interface designed to get you in the zone faster. Track your tactical IQ, analyze mechanics, and master your position.</p>
 
             <!-- 3 Phones Showcase Container -->
             <div class="relative w-full max-w-5xl h-[550px] md:h-[650px] flex justify-center items-center mt-12 mb-8">
@@ -106,10 +106,10 @@
     <!-- Features Section -->
     <section id="features" class="py-32 px-6 bg-gray-50 border-t border-gray-200 relative">
         <div class="max-w-7xl mx-auto">
-            <div class="flex items-end justify-between mb-16">
+            <div class="flex items-end justify-between mb-12 md:mb-16">
                 <div>
-                   <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-sm">Inside The App</h3>
-                   <h2 class="text-5xl md:text-7xl font-heading uppercase leading-none text-dark">Unlock Your<br>Potential.</h2>
+                   <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-xs md:text-sm">Inside The App</h3>
+                   <h2 class="text-4xl sm:text-5xl md:text-7xl font-heading uppercase leading-none text-dark">Unlock Your<br>Potential.</h2>
                 </div>
             </div>
             
@@ -163,9 +163,9 @@
             </div>
             
             <div class="md:w-1/2">
-                <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-sm">Our Personnel</h3>
-                <h2 class="text-5xl md:text-7xl font-heading uppercase leading-none mb-8 text-dark">Learn From<br>The Best.</h2>
-                <p class="text-lg text-gray-600 font-medium mb-8 leading-relaxed">
+                <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-xs md:text-sm">Our Personnel</h3>
+                <h2 class="text-4xl sm:text-5xl md:text-7xl font-heading uppercase leading-none mb-6 md:mb-8 text-dark">Learn From<br>The Best.</h2>
+                <p class="text-base md:text-lg text-gray-600 font-medium mb-8 leading-relaxed">
                    Led by former Indonesian National Team player Jack Brown, the BPRO coaching staff is comprised of ex-professionals dedicated to passing on real, pitch-proven experience to the next generation.
                 </p>
                 <div class="grid grid-cols-2 gap-6">
@@ -185,7 +185,7 @@
     <!-- FAQ Section -->
     <section id="faq" class="py-24 px-6 bg-gray-50">
         <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-4xl font-heading uppercase mb-8 text-dark">Got Questions?</h2>
+            <h2 class="text-3xl md:text-4xl font-heading uppercase mb-8 text-dark">Got Questions?</h2>
             <div class="text-left space-y-6">
                 <!-- FAQ Item -->
                 <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
@@ -203,8 +203,8 @@
     <!-- Final CTA Section (Below FAQ) -->
     <section class="py-20 px-6 bg-brand text-white border-t border-brand">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl md:text-6xl font-heading uppercase mb-6 tracking-tighter">Ready To Step On The Pitch?</h2>
-            <p class="text-lg font-medium mb-10 text-white/90">Download BPRO today and start your journey towards excellence.</p>
+            <h2 class="text-3xl md:text-6xl font-heading uppercase mb-4 md:mb-6 tracking-tighter">Ready To Step On The Pitch?</h2>
+            <p class="text-base md:text-lg font-medium mb-8 md:mb-10 text-white/90">Download BPRO today and start your journey towards excellence.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#" class="bg-dark text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:scale-105 transition-transform shadow-xl">
                     <svg viewBox="0 0 384 512" class="w-6 h-6 fill-current"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 24 184.9 8.1 245.9c-29.6 114.6 28.5 241.9 88.5 241.9 20.4 0 38.3-13.6 61.3-13.6 22.9 0 38.9 13.6 60.5 13.6 60.5 0 97.4-111.4 97.4-111.4-56.1-23.7-56.7-77.9-57.1-107.7zM264.3 89.2c19.1-23.2 29.8-51.5 26.5-80.4-23.9 1.4-56.4 17.5-73.4 38.1-15.6 18.2-28.5 45.4-24.6 74.4 26.4 2.1 55.4-13.5 71.5-32.1z"/></svg>
