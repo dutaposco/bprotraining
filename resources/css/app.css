@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;900&display=swap');
+
+@theme {
+  --color-brand: #ff4c00;
+  --color-brand-soft: #ffe5db;
+  --color-dark: #0a0a0a;
+  --color-surface: #121212;
+
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Anton", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans antialiased selection:bg-brand selection:text-white;
+  }
+}
+
+@utility text-shadow-glow {
+  text-shadow: 0 0 40px rgba(255, 76, 0, 0.4);
+}
