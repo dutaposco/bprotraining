@@ -48,20 +48,25 @@
             
             <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <!-- App Store Button -->
-                <a href="#" class="rounded-2xl bg-dark text-white font-sans px-6 py-3 hover:scale-105 transition-transform w-full sm:w-auto flex items-center justify-center gap-3 shadow-xl">
+                <a href="#" class="rounded-xl bg-black text-white font-sans px-5 py-2.5 hover:scale-105 transition-transform w-[190px] flex items-center gap-3 shadow-2xl border border-white/10">
                     <svg viewBox="0 0 384 512" class="w-8 h-8 fill-current"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 24 184.9 8.1 245.9c-29.6 114.6 28.5 241.9 88.5 241.9 20.4 0 38.3-13.6 61.3-13.6 22.9 0 38.9 13.6 60.5 13.6 60.5 0 97.4-111.4 97.4-111.4-56.1-23.7-56.7-77.9-57.1-107.7zM264.3 89.2c19.1-23.2 29.8-51.5 26.5-80.4-23.9 1.4-56.4 17.5-73.4 38.1-15.6 18.2-28.5 45.4-24.6 74.4 26.4 2.1 55.4-13.5 71.5-32.1z"/></svg>
                     <div class="text-left flex flex-col leading-none">
-                        <span class="text-[10px] uppercase font-bold tracking-widest text-white/70 mb-1">Download on the</span>
-                        <span class="text-xl font-bold tracking-tight">App Store</span>
+                        <span class="text-[9px] uppercase font-medium text-white/80 mb-0.5">Download on the</span>
+                        <span class="text-lg font-semibold tracking-tight">App Store</span>
                     </div>
                 </a>
                 
                 <!-- Play Store Button -->
-                <a href="#" class="rounded-2xl bg-white border-2 border-gray-200 text-dark font-sans px-6 py-3 hover:bg-gray-50 transition-colors w-full sm:w-auto flex items-center justify-center gap-3 shadow-xl">
-                    <svg viewBox="0 0 512 512" class="w-8 h-8 fill-brand"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1z"/></svg>
+                <a href="#" class="rounded-xl bg-black text-white font-sans px-5 py-2.5 hover:scale-105 transition-transform w-[190px] flex items-center gap-3 shadow-2xl border border-white/10">
+                    <svg viewBox="0 0 512 512" class="w-8 h-8">
+                        <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z" fill="#ea4335"/>
+                        <path d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z" fill="#4285f4"/>
+                        <path d="M472.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z" fill="#fbbc05"/>
+                        <path d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z" fill="#34a853"/>
+                    </svg>
                     <div class="text-left flex flex-col leading-none">
-                        <span class="text-[10px] uppercase font-bold tracking-widest text-gray-500 mb-1">GET IT ON</span>
-                        <span class="text-xl font-bold tracking-tight">Google Play</span>
+                        <span class="text-[9px] uppercase font-medium text-white/80 mb-0.5">GET IT ON</span>
+                        <span class="text-lg font-semibold tracking-tight">Google Play</span>
                     </div>
                 </a>
             </div>
@@ -199,13 +204,24 @@ It also includes insights from other pro players and coaches I’ve worked with.
             <h2 class="text-3xl md:text-6xl font-heading uppercase mb-4 md:mb-6 tracking-tighter">Ready To Step On The Pitch?</h2>
             <p class="text-base md:text-lg font-medium mb-8 md:mb-10 text-gray-500">Download BPRO today and start your journey towards excellence.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#" class="bg-dark text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:scale-105 transition-transform shadow-xl">
-                    <svg viewBox="0 0 384 512" class="w-6 h-6 fill-current"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 24 184.9 8.1 245.9c-29.6 114.6 28.5 241.9 88.5 241.9 20.4 0 38.3-13.6 61.3-13.6 22.9 0 38.9 13.6 60.5 13.6 60.5 0 97.4-111.4 97.4-111.4-56.1-23.7-56.7-77.9-57.1-107.7zM264.3 89.2c19.1-23.2 29.8-51.5 26.5-80.4-23.9 1.4-56.4 17.5-73.4 38.1-15.6 18.2-28.5 45.4-24.6 74.4 26.4 2.1 55.4-13.5 71.5-32.1z"/></svg>
-                    App Store
+                <a href="#" class="rounded-xl bg-black text-white font-sans px-5 py-2.5 hover:scale-105 transition-transform w-[190px] flex items-center gap-3 shadow-2xl border border-white/10 mx-auto sm:mx-0">
+                    <svg viewBox="0 0 384 512" class="w-7 h-7 fill-current"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 24 184.9 8.1 245.9c-29.6 114.6 28.5 241.9 88.5 241.9 20.4 0 38.3-13.6 61.3-13.6 22.9 0 38.9 13.6 60.5 13.6 60.5 0 97.4-111.4 97.4-111.4-56.1-23.7-56.7-77.9-57.1-107.7zM264.3 89.2c19.1-23.2 29.8-51.5 26.5-80.4-23.9 1.4-56.4 17.5-73.4 38.1-15.6 18.2-28.5 45.4-24.6 74.4 26.4 2.1 55.4-13.5 71.5-32.1z"/></svg>
+                    <div class="text-left flex flex-col leading-none">
+                        <span class="text-[9px] uppercase font-medium text-white/80 mb-0.5">Download on the</span>
+                        <span class="text-lg font-semibold tracking-tight">App Store</span>
+                    </div>
                 </a>
-                <a href="#" class="bg-white text-dark px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:bg-gray-100 hover:scale-105 transition-transform shadow-xl">
-                    <svg viewBox="0 0 512 512" class="w-6 h-6 fill-brand"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1z"/></svg>
-                    Google Play
+                <a href="#" class="rounded-xl bg-black text-white font-sans px-5 py-2.5 hover:scale-105 transition-transform w-[190px] flex items-center gap-3 shadow-2xl border border-white/10 mx-auto sm:mx-0">
+                    <svg viewBox="0 0 512 512" class="w-7 h-7">
+                        <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z" fill="#ea4335"/>
+                        <path d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z" fill="#4285f4"/>
+                        <path d="M472.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z" fill="#fbbc05"/>
+                        <path d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z" fill="#34a853"/>
+                    </svg>
+                    <div class="text-left flex flex-col leading-none">
+                        <span class="text-[9px] uppercase font-medium text-white/80 mb-0.5">GET IT ON</span>
+                        <span class="text-lg font-semibold tracking-tight">Google Play</span>
+                    </div>
                 </a>
             </div>
         </div>
