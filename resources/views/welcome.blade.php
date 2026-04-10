@@ -26,7 +26,7 @@
 
             <!-- Right: Actions (Strictly Download) -->
             <div class="flex justify-end items-center gap-6">
-                <a href="#app" class="bg-gradient-to-r from-brand to-orange-500 text-white px-6 py-2 rounded-full text-sm font-black hover:scale-105 transition-transform shadow-glow">GET THE APP</a>
+                <a href="#app" class="bg-dark text-white px-6 py-2 rounded-full text-sm font-black hover:scale-105 transition-transform">GET THE APP</a>
             </div>
         </div>
     </nav>
@@ -37,7 +37,7 @@
         <div class="absolute inset-0 w-full h-full">
             <!-- Light Gradient Overlay so text is readable -->
             <div class="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
-            <img src="https://images.unsplash.com/photo-1575361204480-aadea25e6e68?q=80&w=2600&auto=format&fit=crop" class="w-full h-full object-cover object-center opacity-40 grayscale-[20%]" alt="Football Pitch">
+            <img src="https://bprotraining.com/ab1.jpg" class="w-full h-full object-cover object-center" alt="Football Pitch">
         </div>
         
         <!-- Content -->
@@ -116,7 +116,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div class="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-white cursor-pointer shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1431324155629-1a6d0a6ebbfc?q=80&w=1000&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700">
+                    <img src="https://bprotraining.com/ab2.jpg" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-8 text-white">
                         <h3 class="text-3xl font-heading uppercase mb-2">Master Mechanics</h3>
@@ -153,7 +153,7 @@
             <div class="md:w-1/2 relative">
                 <div class="w-full aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl relative">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1526566762798-8fac9c07aa81?q=80&w=1000&auto=format&fit=crop" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                    <img src="https://bprotraining.com/ab3.jpg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
                     <div class="absolute bottom-6 left-6 z-20 text-white">
                         <p class="text-brand font-black tracking-widest uppercase text-sm mb-1">Head Coach / Founder</p>
                         <h3 class="text-4xl font-heading uppercase">Jack Brown</h3>
@@ -166,19 +166,12 @@
                 <h3 class="text-brand font-bold tracking-widest uppercase mb-2 text-xs md:text-sm">Our Personnel</h3>
                 <h2 class="text-4xl sm:text-5xl md:text-7xl font-heading uppercase leading-none mb-6 md:mb-8 text-dark">Learn From<br>The Best.</h2>
                 <p class="text-base md:text-lg text-gray-600 font-medium mb-8 leading-relaxed">
-                   Led by former Indonesian National Team player Jack Brown, the BPRO coaching staff is comprised of ex-professionals dedicated to passing on real, pitch-proven experience to the next generation.
+                   My journey has taken me from grassroots football in England playing school, Sunday league, and semi-pro with Hornchurch FC to a professional academy at Lincoln City U18s.
+
+While I didn't earn a pro contract there, I moved back to my home country, Indonesia, where I went on to represent the Indonesia U20 national team. I'm now in my third season as a pro with Persita.
+
+It also includes insights from other pro players and coaches I’ve worked with. I've made mistakes that cost me time and opportunities, and I’ve learned valuable lessons from them. I see many young players chasing their dreams but not training in the most effective way.
                 </p>
-                <div class="grid grid-cols-2 gap-6">
-                    <div class="border-l-4 border-brand pl-4">
-                        <h4 class="text-3xl font-heading uppercase text-dark">50+</h4>
-                        <p class="text-sm text-gray-500 font-bold uppercase tracking-wider">Years Pro Exp</p>
-                    </div>
-                    <div class="border-l-4 border-brand pl-4">
-                        <h4 class="text-3xl font-heading uppercase text-dark">12</h4>
-                        <p class="text-sm text-gray-500 font-bold uppercase tracking-wider">Elite Coaches</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -201,10 +194,10 @@
     </section>
 
     <!-- Final CTA Section (Below FAQ) -->
-    <section class="py-20 px-6 bg-brand text-white border-t border-brand">
+    <section class="py-20 px-6 bg-white text-dark border-t border-gray-100">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl md:text-6xl font-heading uppercase mb-4 md:mb-6 tracking-tighter">Ready To Step On The Pitch?</h2>
-            <p class="text-base md:text-lg font-medium mb-8 md:mb-10 text-white/90">Download BPRO today and start your journey towards excellence.</p>
+            <p class="text-base md:text-lg font-medium mb-8 md:mb-10 text-gray-500">Download BPRO today and start your journey towards excellence.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#" class="bg-dark text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:scale-105 transition-transform shadow-xl">
                     <svg viewBox="0 0 384 512" class="w-6 h-6 fill-current"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 24 184.9 8.1 245.9c-29.6 114.6 28.5 241.9 88.5 241.9 20.4 0 38.3-13.6 61.3-13.6 22.9 0 38.9 13.6 60.5 13.6 60.5 0 97.4-111.4 97.4-111.4-56.1-23.7-56.7-77.9-57.1-107.7zM264.3 89.2c19.1-23.2 29.8-51.5 26.5-80.4-23.9 1.4-56.4 17.5-73.4 38.1-15.6 18.2-28.5 45.4-24.6 74.4 26.4 2.1 55.4-13.5 71.5-32.1z"/></svg>
